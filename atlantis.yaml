@@ -1,7 +1,7 @@
 version: 3
 projects:
 - name: test-infrastructure
-  dir: ./infra
+  dir: ./
   terraform_version: v1.3.6
   autoplan:
     when_modified: ["*.tf"]
